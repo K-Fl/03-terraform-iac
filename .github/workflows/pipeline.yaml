@@ -30,6 +30,7 @@ jobs:
         run: terraform init
 
       - name: Terraform Validate
+        
         id: validate
         run: terraform validate -no-color
 
@@ -87,5 +88,5 @@ jobs:
         working-directory: ./demo-app
       - run: npm run build
         working-directory: ./demo-app
-      - run: aws s3 cp build s3://<bucket_navn> --recursive --region eu-west-1
+      - run: aws s3 cp build s3://kjetil-demobucket1 --recursive --region eu-west-1
         working-directory: ./demo-app 
