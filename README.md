@@ -1,4 +1,4 @@
-# Terraform &  S3 Webapp Lab
+ # Terraform &  S3 Webapp Lab
 
 I denne oppgaven vil du lage en nettside ved hjelp av Amazon S3. En S3 Bucket skal lages med Terraform og statiske websider skal 
 lages i React.js fra kildekode med NPM av Github actions, og lastes opp. Appen er en enkel "hello world"...
